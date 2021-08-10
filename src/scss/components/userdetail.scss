@@ -1,0 +1,21 @@
+.UserDetail{
+  width: 30vw;
+  height: 100vh;
+  background: #FFF;
+}
+
+.UserDetail_pic{
+  height: 50vh;
+  background-color: lightgray;
+}
+
+.UserDetail_infos{
+  height: 50vh;
+  >div{
+    padding: 30px;
+  }
+  h2{
+    font-size: 28px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,19 @@
+.Persona{
+  display: flex;
+}
+
+.Persona_content{
+  width: 70vw;
+  height: 100vh;
+  background: #F4F4F4;
+  >div{
+    padding: 30px;
+    // display: flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+  }
+}
+
+.Persona_test{
+  columns: 2;
+}

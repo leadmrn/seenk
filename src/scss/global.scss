@@ -1,0 +1,12 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+$primaryFont: 'Montserrat';
+
+body{
+  font-family: $primaryFont;
+}
+
+.text{
+  line-height: 26px;
+  font-size: 18px;
+}
