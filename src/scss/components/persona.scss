@@ -1,19 +1,32 @@
 .Persona{
   display: flex;
+  flex-direction: column;
+  @media(min-width: 650px){
+    flex-direction: row;
+  }
 }
 
 .Persona_content{
-  width: 70vw;
-  height: 100vh;
   background: #F4F4F4;
+  @media(min-width: 650px){
+    padding-left: 45vw;
+    width: 55vw;
+    min-height: 100vh;
+  }
+  @media(min-width: 992px){
+    padding-left: 30vw;
+    width: 70vw;
+  }
   >div{
-    padding: 30px;
-    // display: flex;
-    // justify-content: space-between;
-    // flex-wrap: wrap;
+    padding: 15px;
+    @media(min-width: 650px){
+      padding: 30px;
+    }
   }
 }
 
 .Persona_test{
-  columns: 2;
+  @media(min-width: 992px){
+    columns: 2;
+  }
 }

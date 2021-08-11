@@ -10,7 +10,7 @@ function Persona() {
     <div className="Persona">
       <UserDetail />
       <div className="Persona_content">
-        <div class="Persona_test">
+        <div className="Persona_test">
           <Card title="🎭 personality" type="personality" />
           <Card title="🎓 education" type="education" />
           <Card title="💼 work life" type="work" />

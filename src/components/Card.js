@@ -28,14 +28,14 @@ function Card(props) {
               </div>
             </div>
             <div>
-              <input type="checkbox" checked />
+              <input type="checkbox" defaultChecked />
               <div>
                 <p>Underraduate</p>
                 <p className="text">At a local specialised college. Studied applied design, which quickly turned into a career.</p>
               </div>
             </div>
             <div>
-              <input type="checkbox" checked />
+              <input type="checkbox" defaultChecked />
               <div>
                 <p>High school</p>
                 <p className="text">Local high school doing honors level course work. Highly motivated, a high achiever. Participated in a few academic clubs.</p>

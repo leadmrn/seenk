@@ -17,7 +17,7 @@ function UserDetail() {
             <Atom name="Male" type="male" />
             <Atom name="San Francisco" type="location" />
           </div>
-          <p className="text">
+          <p className="text UserDetail_desc">
             Greg previously had a mid-level job crunching numbers at a big company. One of his colleagues introduced him to HES, which transformed his professional life - he launched his own tech startup. He is now highly driven and his work has been succesful.
           </p>
         </div>
