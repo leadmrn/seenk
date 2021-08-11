@@ -7,7 +7,14 @@ function UserDetail() {
   return (
     <div className="UserDetail">
       <div className="UserDetail_pic">
-        <Atom name="Current Student" type="role" />
+        <div className="UserDetail_atom">
+          <Atom name="Current Student" type="role" />
+        </div>
+        <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" />
+        <div className="triangle triangle-1"></div>
+        <div className="triangle triangle-2"></div>
+        <div className="triangle triangle-3"></div>
+        <div className="triangle triangle-4"></div>
       </div>
       <div className="UserDetail_infos">
         <div>

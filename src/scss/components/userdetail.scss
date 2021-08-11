@@ -11,16 +11,87 @@
 }
 
 .UserDetail_pic{
-  height: 300px;
-  background-color: lightgray;
+  height: 500px;
+  background-color: #FFF;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
   @media(min-width: 650px){
-    height: 50vh;
+    height: 55vh;
+  }
+
+  img{
+    position: absolute;
+    width: 100%;
+  }
+
+  .UserDetail_atom{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+  }
+
+  .triangle{
+    position: absolute;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    bottom: 0;
+  }
+
+  .triangle-1{
+    border-right : 100vw solid transparent;
+    border-bottom : 200px solid rgba(255, 255, 255, .6);
+    z-index: 3;
+    @media(min-width: 650px){
+      border-right : 45vw solid transparent;
+    }
+    @media(min-width: 992px){
+      border-right : 30vw solid transparent;
+    }
+  }
+  .triangle-2{
+    border-bottom : 170px solid #FFF;
+    border-left : 100vw solid transparent;
+    z-index: 4;
+    @media(min-width: 650px){
+      border-left : 45vw solid transparent;
+    }
+    @media(min-width: 992px){
+      border-left : 30vw solid transparent;
+    }
+  }
+
+  .triangle-3{
+    border-bottom : 230px solid rgba(255, 255, 255, .4);
+    border-left : 100vw solid transparent;
+    z-index: 2;
+    @media(min-width: 650px){
+      border-left : 45vw solid transparent;
+    }
+    @media(min-width: 992px){
+      border-left : 30vw solid transparent;
+    }
+  }
+
+  .triangle-4{
+    border-bottom : 280px solid rgba(255, 255, 255, .2);
+    border-left : 100vw solid transparent;
+    z-index: 1;
+    @media(min-width: 650px){
+      border-left : 45vw solid transparent;
+    }
+    @media(min-width: 992px){
+      border-left : 30vw solid transparent;
+    }
   }
 }
 
 .UserDetail_infos{
   @media(min-width: 650px){
-    height: 50vh;
+    height: 45vh;
     max-height: 50vh;
     overflow: scroll;
   }
