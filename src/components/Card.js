@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Atom from './Atom';
 
 import dataPersonas from '../data/data.json';
