@@ -1,38 +1,100 @@
 {
-  "id": 1,
-  "picture": "",
-  "name": "Greg Brunner",
-  "role": "Alumni",
-  "age": 36,
-  "sexe": "Male",
-  "location": "San Francisco",
-  "description": "Greg previously had a mid-level job crunching numbers at a big company. One of his colleagues introduced him to HES, which transformed his professional life - he launched his own tech startup. He is now highly driven and his work has been succesful.",
-  "education": {
-    "highSchool": true,
-    "highSchoolDesc": "",
-    "undergraduate": true,
-    "undergraduateDesc": "Went to a state college, but took generic mid-level courses.",
-    "graduate": true,
-    "graduateDesc": "Did his Masters in Digital Media at HES"
-  },
-  "work": {
-    "atoms": ["Entrepreneur"],
-    "text": "Has been running his startup for 5 years now. He is slowly starting to hire teams such that he can step away from the project a little."
-  },
-  "hobbies": ["Travelling", "Hiking", "Judo", "YouTube 'Hustle'rs", "Nightlife"],
-  "digitCom": [],
-  "cardText": [
+  "personas" : [
     {
-      "name": "Digital Media",
-      "text": "He works with a small team of highly driven and specialised tech experts. He manages the teams more than implicating himself in daily ground work. He uses his expertise to market his startup to investors and to assure quality of the product."
+      "id": 1,
+      "picture": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "name": "Greg Brunner",
+      "role": "Alumni",
+      "age": 36,
+      "sexe": "Male",
+      "location": "San Francisco",
+      "description": "Greg previously had a mid-level job crunching numbers at a big company. One of his colleagues introduced him to HES, which transformed his professional life - he launched his own tech startup. He is now highly driven and his work has been succesful.",
+      "personality" : {
+        "picture": "https://i.pinimg.com/originals/77/2e/dc/772edcf3982e565b6450a01f5a87ac2c.png",
+        "subtitle": "ENTJ-A",
+        "title": "The commander"
+      },
+      "education": {
+        "highSchool": true,
+        "highSchoolDesc": "",
+        "undergraduate": true,
+        "undergraduateDesc": "Went to a state college, but took generic mid-level courses.",
+        "graduate": true,
+        "graduateDesc": "Did his Masters in Digital Media at HES"
+      },
+      "work": {
+        "atoms": ["Entrepreneur"],
+        "text": "Has been running his startup for 5 years now. He is slowly starting to hire teams such that he can step away from the project a little."
+      },
+      "hobbies": ["Travelling", "Hiking", "Judo", "YouTube 'Hustle'rs", "Nightlife"],
+      "digitCom": [
+        "https://messengernews.fb.com/wp-content/uploads/2020/10/Rebrand-Logo.png",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+        "https://image.flaticon.com/icons/png/512/2111/2111615.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/800px-YouTube_full-color_icon_%282017%29.svg.png"
+      ],
+      "cardText": [
+        {
+          "name": "💻 digital media",
+          "text": "He works with a small team of highly driven and specialised tech experts. He manages the teams more than implicating himself in daily ground work. He uses his expertise to market his startup to investors and to assure quality of the product."
+        },
+        {
+          "name": "🎯 goals",
+          "text": "Meet other entrepreneurs / network; Find new talent to add to his team; Seek out new technologies for his product to evole with"
+        },
+        {
+          "name": "😈 frustrations",
+          "text": "Still has a limited digital expertise. Cannot always find the right tech"
+        }
+      ]
     },
     {
-      "name": "Goals",
-      "text": "Meet other entrepreneurs / network; Find new talent to add to his team; Seek out new technologies for his product to evole with"
-    },
-    {
-      "name": "Frustrations",
-      "text": "Still has a limited digital expertise. Cannot always find the right tech"
+      "id": 2,
+      "picture": "http://farm5.static.flickr.com/4054/4348446829_87c92e92d4_o.jpg",
+      "name": "Julia Evans",
+      "role": "Current Student",
+      "age": 26,
+      "sexe": "Female",
+      "location": "London",
+      "description": "An intelligent and highly motivated individual, who works in a creative field but pursued academics at Harvard as a secondary passion. She lives away from the friends and family around whom she grew up. Digital media classes have her considering a career switch.",
+      "personality" : {
+        "picture": "https://i.pinimg.com/originals/77/2e/dc/772edcf3982e565b6450a01f5a87ac2c.png",
+        "subtitle": "ENFP-A",
+        "title": "The campaigner"
+      },
+      "education": {
+        "highSchool": true,
+        "highSchoolDesc": "Local high school doing honors level course work. Highly motivated, a high achiever. Participated in a few academic clubs.",
+        "undergraduate": true,
+        "undergraduateDesc": "At a local specialised college. Studied applied design, which quickly turned into a career.",
+        "graduate": false,
+        "graduateDesc": ""
+      },
+      "work": {
+        "atoms": ["Employed", "Freelances"],
+        "text": "Mid level position, managing a small team (2-3) of juniors."
+      },
+      "hobbies": ["Coffee", "Travelling", "Tennis", "Cooking", "Art & Architecture"],
+      "digitCom": [
+        "https://messengernews.fb.com/wp-content/uploads/2020/10/Rebrand-Logo.png",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+        "https://image.flaticon.com/icons/png/512/2111/2111615.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/800px-YouTube_full-color_icon_%282017%29.svg.png"
+      ],
+      "cardText": [
+        {
+          "name": "💻 digital media",
+          "text": "Currently uses online tutorials and/or discussion boards to learn digital media. Sometimes signs up for digital conferences to experience the community more, but may not fully participate. Talks primarily to professors for any advice related to field. Googles the rest. "
+        },
+        {
+          "name": "🎯 goals",
+          "text": "Meet like-minded people. Get help / level-up skills. Step out of current profession"
+        },
+        {
+          "name": "😈 frustrations",
+          "text": "Lacks network in Digital Media. Too many tools (Fb groups, slacks etc)"
+        }
+      ]
     }
   ]
 }

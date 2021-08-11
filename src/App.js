@@ -6,7 +6,7 @@ import './scss/styles.scss';
 function App() {
   return (
     <div className="App">
-      <Persona />
+      <Persona id={1} />
     </div>
   );
 }

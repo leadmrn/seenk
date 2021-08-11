@@ -3,22 +3,26 @@ import React from 'react';
 import Card from './Card';
 import UserDetail from './UserDetail';
 
+import dataPersonas from '../data/data.json';
 
-function Persona() {
+
+function Persona(props) {
+
+  const data = dataPersonas.personas[props.id - 1];
 
   return (
     <div className="Persona">
-      <UserDetail />
+      <UserDetail idUser={data.id} />
       <div className="Persona_content">
         <div className="Persona_test">
-          <Card title="🎭 personality" type="personality" />
-          <Card title="🎓 education" type="education" />
-          <Card title="💼 work life" type="work" />
-          <Card title="💃🏻 hobbies" type="hobbies" />
-          <Card title="📱 digital communities" type="digitCom" />
-          <Card title="💻 digital media" text="Currently uses online tutorials and/or discussion boards to learn digital media. Sometimes signs up for digital conferences to experience the community more, but may not fully participate. Talks primarily to professors for any advice related to field. Googles the rest." />
-          <Card title="🎯 goals" text="Meet like-minded people Get help / level-up skills Step out of current profession" />
-          <Card title="😈 frustrations" text="Lacks network in Digital Media Too many tools (Fb groups, slacks etc)" />
+          <Card title="🎭 personality" type="personality" idUser={data.id} />
+          <Card title="🎓 education" type="education" idUser={data.id} />
+          <Card title="💼 work life" type="work" idUser={data.id} />
+          <Card title="💃🏻 hobbies" type="hobbies" idUser={data.id} />
+          <Card title="📱 digital communities" type="digitCom" idUser={data.id} />
+          {data.cardText.map((card, i)=>{
+            return (<Card title={card.name} key={i} text={card.text} idUser={data.id} />)
+          })}
         </div>
       </div>
     </div>
