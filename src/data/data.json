@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "picture": "",
+  "name": "Greg Brunner",
+  "role": "Alumni",
+  "age": 36,
+  "sexe": "Male",
+  "location": "San Francisco",
+  "description": "Greg previously had a mid-level job crunching numbers at a big company. One of his colleagues introduced him to HES, which transformed his professional life - he launched his own tech startup. He is now highly driven and his work has been succesful.",
+  "education": {
+    "highSchool": true,
+    "highSchoolDesc": "",
+    "undergraduate": true,
+    "undergraduateDesc": "Went to a state college, but took generic mid-level courses.",
+    "graduate": true,
+    "graduateDesc": "Did his Masters in Digital Media at HES"
+  },
+  "work": {
+    "atoms": ["Entrepreneur"],
+    "text": "Has been running his startup for 5 years now. He is slowly starting to hire teams such that he can step away from the project a little."
+  },
+  "hobbies": ["Travelling", "Hiking", "Judo", "YouTube 'Hustle'rs", "Nightlife"],
+  "digitCom": [],
+  "cardText": [
+    {
+      "name": "Digital Media",
+      "text": "He works with a small team of highly driven and specialised tech experts. He manages the teams more than implicating himself in daily ground work. He uses his expertise to market his startup to investors and to assure quality of the product."
+    },
+    {
+      "name": "Goals",
+      "text": "Meet other entrepreneurs / network; Find new talent to add to his team; Seek out new technologies for his product to evole with"
+    },
+    {
+      "name": "Frustrations",
+      "text": "Still has a limited digital expertise. Cannot always find the right tech"
+    }
+  ]
+}

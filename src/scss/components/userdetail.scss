@@ -19,3 +19,12 @@
     font-weight: 500;
   }
 }
+
+.UserDetail_details{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  .Atom{
+    margin-left: 10px;
+  }
+}

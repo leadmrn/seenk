@@ -1,0 +1,25 @@
+.Atom{
+  border-radius: 3px;
+  width: fit-content;
+  padding: 4px 8px;
+  &.role{
+    background: rgba(0, 0, 0, 0.25);
+    color: #FFF;
+  }
+  &.work{
+    background: #F4F4F4;
+    color: #4B6A87;
+  }
+  &.female{
+    background: #FFEAEB;
+    color: #D0004B;
+  }
+  &.male{
+    background: #E7F0FF;
+    color: #0065C2;
+  }
+  &.location{
+    background: #E8FBED;
+    color: #089C67;
+  }
+}
